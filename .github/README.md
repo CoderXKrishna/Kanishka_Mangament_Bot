@@ -87,7 +87,7 @@ Press `Ctrl+b` and then `d`
 ```py
 #ᴀᴅᴅ ʟɪᴄᴇɴsᴇ ᴛᴇxᴛ ʜᴇʀᴇ ɢᴇᴛ ɪᴛ ғʀᴏᴍ ʙᴇʟᴏᴡ.
 
-from Kanishka_Mangament_Bot import pbot as mukesh # This is bot's client
+from Kanishka_Mangament_Bot import pbot as kanishka # This is bot's client
 from pyrogram import filters # pyrogram filters
 
 
@@ -97,7 +97,7 @@ __mod_name__ = "Module Name"
 __help__ = "Module help message"
 
 
-@mukesh.on_message(filters.command("start"))
+@kanishka.on_message(filters.command("start"))
 async def some_function(_, message):
     await message.reply_text("ɪ'ᴍ.ᴀʟɪᴠᴇ ʙᴀʙʏ❣️!!")
 
@@ -114,7 +114,7 @@ async def some_function(_, message):
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/the_support_chat"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/Carding_Chronicle"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
 <a href="https://telegram.me/Mr_Mrs_Krishna"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=telegram"></a>
